@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Fields Full Track.ogg-4af33ef958b3b4c3290ffcfac51260fb.oggstr"
+
+[deps]
+
+source_file="res://TheCovidWatcher/Sounds/Bgm/Fields Full Track.ogg"
+dest_files=[ "res://.import/Fields Full Track.ogg-4af33ef958b3b4c3290ffcfac51260fb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

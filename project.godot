@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "People",
+"language": "GDScript",
+"path": "res://TheCovidWatcher/Scripts/People/People.gd"
+} ]
+_global_script_class_icons={
+"People": ""
+}
+
+[application]
+
+config/name="UAS-Grafikom"
+run/main_scene="res://TheCovidWatcher/Scenes/Menu/MainMenu.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=960
+window/size/height=540
+window/size/fullscreen=true
+window/size/always_on_top=true
+window/size/test_width=480
+window/size/test_height=270
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[rendering]
+
+quality/shading/force_vertex_shading.mobile=false
+quality/shading/force_lambert_over_burley.mobile=false
+quality/shading/force_blinn_over_ggx.mobile=false
+environment/default_environment="res://default_env.tres"
